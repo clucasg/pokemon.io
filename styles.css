@@ -9,7 +9,8 @@ font-family: 'Inter', sans-serif;
 header{
     position: fixed;
     background-color: #FFF2AC;
-    width: 100%;
+    width: 120%;
+    right: -50px;
     padding: 35px;
 }
 
@@ -37,7 +38,11 @@ nav li a{
     margin-left: 10px;
     margin-right: 10px;
 }
-
+body{
+    position: absolute;
+    right: 50px;
+    left: 50px;
+}
 /*Classes*/
 .atual{
     background-color: #5096FF;
@@ -67,14 +72,20 @@ nav li a{
     padding: 10px;
 }
 
-.imginicial{
+.conteudol{
+    max-width: 780px;  
+    width: 70%; 
+    padding: 10px;
+}
+
+.img{
     height: 50%;
     width: 100%;
     object-fit: cover;
     padding-bottom: 50px;
 }
 
-.imginicial2{
+.img2{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -82,4 +93,13 @@ nav li a{
     object-fit: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-}   
+} 
+
+.imglateral{
+    position: absolute;
+    width: 30%;
+    float: right;
+    right: 10px;
+    width: 630px; 
+    height: 260px;
+}
