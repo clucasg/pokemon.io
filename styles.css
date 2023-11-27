@@ -1,0 +1,85 @@
+/*Bases*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: #FFF2AC;
+    width: 100%;
+    padding: 35px;
+}
+
+nav{
+    position: sticky;
+    top: 50px;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    background-color: #D3E7E9;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Classes*/
+.atual{
+    background-color: #5096FF;
+    color: white;
+    border: #5096FF;
+    border-radius: 5px;
+}
+
+.navegar{
+    background-color: #D3E7E9;
+    border: #D3E7E9;
+    border-radius: 5px;
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pesquisar{
+    background: #fff;
+    position: absolute;
+    left: 75%;
+    top: 30%;
+    height: 10px;
+    max-width: 360px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.imginicial{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 50px;
+}
+
+.imginicial2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}   
