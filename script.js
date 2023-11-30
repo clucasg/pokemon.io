@@ -1,9 +1,9 @@
 const pokeContainer = document.querySelector("#pokeContainer");
 const pokemonCount = 1292
 const colors = {
-    fire: '#FDDFDF',
-    grass: '#DEFDE0',
-    electric: '#FCF7DE',
+    fire: '#F08030',
+    grass: '#78C850',
+    electric: '#F8D030',
     water: '#DEF3FD',
     ground: '#f4e7da',
     rock: '#d5d5d4',
