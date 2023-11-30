@@ -4,17 +4,17 @@ const colors = {
     fire: '#F08030',
     grass: '#78C850',
     electric: '#F8D030',
-    water: '#DEF3FD',
-    ground: '#f4e7da',
-    rock: '#d5d5d4',
-    fairy: '#fceaff',
-    poison: '#98d7a5',
-    bug: '#f8d5a3',
-    dragon: '#97b3e6',
-    psychic: '#eaeda1',
-    flying: '#F5F5F5',
-    fighting: '#E6E0D4',
-    normal: '#F5F5F5'
+    water: '#6890F0',
+    ground: '#E0C068',
+    rock: '#B8A038',
+    fairy: '#EE99AC',
+    poison: '#A040A0',
+    bug: '#A8B820',
+    dragon: '#7038F8',
+    psychic: '#F85888',
+    flying: '#A890F0',
+    fighting: '#C03028',
+    normal: '#A8A878'
 }
 
 const mainTypes = Object.keys(colors);
