@@ -69,6 +69,7 @@ nav li a:hover{
 }
 
 .img_logo{
+    margin-top: 23px;
     left: 20px;
     position: absolute;
     height: 50px;
