@@ -107,6 +107,27 @@ body{
     
 }
 
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #D3E7E9;
+    min-width: 150px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content a{
+    padding: 5px;
+    display: block;
+}
 
 .card{
     width: 300px;
