@@ -31,7 +31,6 @@ nav ul li{
     font-size: 20px;
 }
 
-
 nav li a{
     text-decoration: none;
     background-color: #D3E7E9;
@@ -43,6 +42,15 @@ nav li a{
 nav li a:hover{
     background-color: #5096FF;
 }
+
+nav div{
+    text-decoration: none;
+    background-color: #D3E7E9;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .navegador{
     background-color: #D3E7E9;
     border: #D3E7E9;
