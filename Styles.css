@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-style: bold;
+}
+
+h2 {
+    color: #000000;
+    font-size: bold;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("Imagens/eu-te-amo-pokémon-capa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.3);
+    width: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-color:rgb(255, 217, 0);
+    padding: 20px;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid rgb(231, 231, 231);
+    background-color: rgb(240, 240, 240);
+    display: block;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden; /** Essa etapa vai fazer os icones sumirem é so aparecerem quando houverem erros e acertos definidos pelo JS**/ 
+
+}
+
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.box-select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    position: relative;
+    background-color: rgb(255, 208, 0);
+    border: 2px solid rgb(255, 102, 0);
+    color: #000000;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px ;
+    padding: 10px;
+}
+
+.form-control.success input {
+    border-color: green ;
+}
+
+.form-control.error input {
+    border-color: red ;
+}
+
+.form-control.success i.fa-chack-circle {
+    border-color: green ;
+    visibility: visible;
+}
+
+.form-control.success i.fa-exclamation-circle{
+    border-color: red ;
+    visibility: visible;
+}
+
+
+.form-control.error small {
+    visibility: visible;
+    color: red;
+
+}
+
+
+

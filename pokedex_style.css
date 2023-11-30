@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: #FFF2AC;
+    height: 100px;
+    width: 100%
+}
+
+nav{
+    position: fixed;
+    top: 75px;
+    padding: 10px;
+}
+
+.atual{
+    background-color: #5096FF;
+    color: white;
+    border: #5096FF;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    background-color: #D3E7E9;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav li a:hover{
+    background-color: #5096FF;
+}
+.navegador{
+    background-color: #D3E7E9;
+    border: #D3E7E9;
+    border-radius: 5px;
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pesquisar{
+    height: 20px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    top: 35%;
+    left: 85%;
+    border-radius: 5px;
+}
+
+.img_logo{
+    position: relative;
+    margin: 0;
+    left: 20px;
+    height: 50px;
+    
+}
+
+
+body{
+    margin: 200px;
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeContainer{
+    animation: transitionIn 0.75s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.pokemon{
+    background-color: #eee;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgContainer img{
+    max-width: 90%;
+}
+
+.info{
+    margin-top: 20px;
+
+}
+
+.number{
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.name{
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+    
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
