@@ -1,36 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Lamentamos Muito Sinceramente</title>
-        <link rel="icon" type="image/x-icon" href="/Imagens/Icones/favicon.png">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <input type="text" class="pesquisar" placeholder="Pesquisar">
-        </header>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="pokedex_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+</head>
+<body>
+  <header>
+    <input type="text" class="pesquisar" placeholder="Pesquisar">
+    <img src="Imagens/logo.png" class="img_logo" alt="">    
+</header>
+<nav class="navegador">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a class="atual" href="pokedex.html">Pokedex</a></li>
+        <li><a href="lideres.html">Lideres de Ginásio</a></li>
+        <li><a href="regions.html">Regiões</a></li>
+        <li><a href="lendarios.html">Lendarios</a></li>
+    </ul>
+</nav>
 
-        <nav class="navegar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="atual" href="pokedex.html">Pokedex</a></li>
-                <li><a href="lideres.html">Lideres de Ginásio</a></li>
-                <li><a href="itens.html">Itens</a></li>    
-                <li><a href="lendarios.html">Lendarios</a></li>
-            </ul>
-        </nav>
-        <section>
-            <table>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-          </table>
-        </section>
-</html> 
+
+    <div class="pokeContainer" id="pokeContainer">
+
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
