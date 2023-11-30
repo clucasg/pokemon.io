@@ -21,12 +21,6 @@ nav{
     padding: 10px;
 }
 
-.atual{
-    background-color: #5096FF;
-    color: white;
-    border: #5096FF;
-    border-radius: 5px;
-}
 nav ul{
     list-style: none;
     text-align: center;
